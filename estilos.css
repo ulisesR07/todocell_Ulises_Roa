@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #8af5da;
+    color: white;
+    padding: 20px;
+}
+body{
+    background-color: rgb(209, 209, 214)
+}
+.btn-outline-success {
+    color:black;
+    border-color: black;
+}
+#carouselExampleIndicators{
+    width: 20%;
+}
+button{
+    text-align: left;
+}
+.dropdown{
+    float: right;
+}
+/* .fotos{
+    width: 100%; */
+    
+    /* height: 100%; */
+
+.carousel{
+    justify-content: center;
+}
+.carousel-control-next-icon{
+    height: 30px;
+    width: 30px;
+    background-color:black;
+    border: 2px solid black;
+}
+.carousel-control-prev-icon{
+    height: 30px;
+    width: 30px;
+    background-color:black;
+    border: 2px solid black;
+}
+/* table{
+    border: 2px solid black;
+}
+th{
+    border: 2px solid black; 
+}
+td{
+    border: 2px solid black;
+} */

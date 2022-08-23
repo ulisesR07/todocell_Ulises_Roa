@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title> 
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <header>
+        <section class="encabezado"> 
+            <img id="android" src="multimedia/android.png" alt="" height="50" width="auto">
+            <h1 id="titulo">Todo Cell</h1>
+            <img id="manzana" src="multimedia/apple.jpg" alt="" height="50" width="auto">
+        </section>
+        <br>
+        <br>
+        <nav id="menu">
+            <ul>
+                <li><a href="./index.html">inicio</a></li>
+                <li><a href="#">contacto</a></li>
+                <li><a href="./local.html">nuestro local</a></li>
+                <li><a href="./envio.html">envio</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="tcontacto"> Dejenos sus datos para contactarlo </h2>
+    <form action="enviar.php" method="post"
+    enctype="application/x-www-form-urlencoded">
+        <label for=nombre>nombre:</label> 
+        <input type="text" name="nombre" required placeholder="escribe tu nombre"> <br>
+        <label for="apellido">apeliido:</label>
+        <input type="text" name="apellido" required placeholder="escribe tu apellido"> <br>
+        <label for=correo>correo:</label> 
+        <input type="email" name="correo" required value="@"> <br>
+        telefono <input type="tex" required placeholder="escribe tu tel"> <br> <!--placenholder para poner un comentario dentro de un input-->
+        <!--implementar placeholder--> <!--placenholder va a decir lo que el usuario debe poner dentro-->
+        <!--area de texto-->
+        <label for="comentario">Dejenos algun comentario o alguna queja para seguir mejorando</label> <br>
+        <textarea name="comentario" id="" cols="30" rows="5" placeholder="nombre del telefono que desea comprar" >    
+        </textarea> <!--cols columna;rows filas-->
+        <input type="submit" value="enviar"> 
+        <input type="reset">
+        <div class="footer"></div>
+        <!--acá va el cuerpo de la pag hasta el footer-->
+        </main>
+    <footer class="footer">
+        <p>Autor: Ulises Roa <br>
+            Tel:116680xxxx <br>
+            Email:ulises.roa07@gmail.com
+        </p>
+        <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"> <img src="./iconos/facebook.jpg" height="30" width="auto"></a> 
+    <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"> <img src="./iconos/instagram.webp" height="30" width="auto"></a>
+    <a href="http://www.whatsapp.com" target="_blank" rel="noopener noreferrer"> <img src="./iconos/wsp.png.crdownload" height="30" width="auto"></a>
+    </footer>
+    <marquee behavior="slide" direction="right">Gracias por visitarnos</marquee>
+</body>
+</html>
